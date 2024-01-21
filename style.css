@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box {
+    height: 450px;
+    background-color: black;
+    margin: auto;
+    border: 1px solid white;
+    width: 300px;
+    border-radius: 13px;
+}
+
+.answerSec {
+    height: 15%;
+}
+
+input {
+    border: transparent;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    width: 90%;
+    padding: 12px;
+    margin: 8px 3px;
+    outline: none;
+}
+
+.btnSec {
+    display: flex;
+    margin: 6px;
+    flex-wrap: wrap;
+    gap: 13px;
+    margin-top: 40px;
+
+}
+
+.btnSec button {
+    background-color: transparent;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 1px solid rgb(146, 144, 144);
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+#equalBtn{
+    background-color: rgb(223, 151, 5);
+    border: none;
+    width: 76px;
+    height: 46px;
+    border-radius: 25px;
+}
